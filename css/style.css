@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Poppins:wght@400;500;600&family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    font-family: 'poppins', sans-serif;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
+    list-style: none;
+}
+
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    margin-left: 47px;
+}
+
+a i{
+    font-size: 30px;
+    color: blue;
+}
+
+.navbar li{
+    padding-right: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.navbar li a:hover{
+    color: blue;
+}
+
+.navbar .btn{
+    border-radius: 25px;
+    padding: 7px 30px;
+    text-transform: uppercase;
+}
+
+/* HOME */
+.home {
+    background:linear-gradient(rgba(50, 16, 202, 0.438),rgba(0,0,0,0.2)), url(../img/home.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10% 10% 10% 10%;
+}
+
+.home-text {
+    padding-left: 50px;
+    text-align: center;
+    position: absolute;
+}
+
+.home-text h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.btn-sign{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    margin-left: -94px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.btn-sign:hover{
+    color: white;
+    background-color: #0859eed5;
+    border: 1px solid rgba(8, 89, 238, 0.836);
+}
+
+/* ABOUT */
+.about {
+    margin-top:111px;
+    margin-bottom: 30px;
+}
+
+.about-image img {
+    border-radius: 50px 0 50px 50px;
+}
+
+.about-text span{
+    color:#0859eed5;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.about-text h1 {
+    font-size: 30px;
+}
+
+.about-text p{
+    font-size: 20px;
+    margin: 21px 0 10px;
+}
+
+/* LODGES */
+.lodge {
+    margin-top: 109px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading span {
+    font-weight:500;
+    color: #0859eed5;
+}
+
+.heading h1 {
+    font-size: 40px;
+}
+
+.heading p{
+    font-size: 20px;
+}
+
+.container {
+    border-radius: 20px;
+}
+
+.row .box {
+    background: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.2);
+}
+
+.row .box img{
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.row .box:hover {
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+.row .box h3{
+    font-size: 10px;
+    font-weight: 600;
+    color: black;
+}
+
+.row .box .content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.row .box .content .text h3 {
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.row .box .content .text p{
+    font-size: 15px;
+}
+
+.contact {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact h3{
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.contact form {
+    margin-left: 35%;
+}
+
+.contact .btn {
+    margin-left: -51%;
+    border-radius: 25px;
+    padding: 10px 50px;
+    text-transform: uppercase;
+}
+
+.footer {
+    background:#0859eed5;
+    color: #0859eed5;
+    border-radius: 70px 0 70px 0;
+}
+
+.footer a{
+    color: #fff;
+    padding: 3px 4px;
+    border: 50%;
+    font-size: 5px;
+}
+
+.footer a:hover{
+    color: #000;
+}
+
+.footer a i:hover{
+    color:blue;
+    background: #fff;
+    border-radius: 20%;
+}
+
+.footer-container{
+    padding: 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+    gap: 30px;
+}
+
+.footer h2{
+    color: #fff;
+}
+
+.footer h3{
+    color: #fff;
+    font-size: 23px;
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.copyright{
+    color: #fff;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+/* LOG IN */
+.login{
+    margin-bottom: 10%;
+}
+
+.login-container h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.login-container p{
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.login-container label{
+    font-size: 20px;
+    color: #8a8a8a;
+    margin-bottom: 4px;
+}
+
+.login-container input{
+    border: 1px solid #8a8a8a;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #fafafa;
+}
+
+.login-container form .buttom{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    outline: none;
+    border: none;
+    background: #0859eed5;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.login-container form .buttom:hover{
+    background: #3492fd;
+}
+
+.login-container form a {
+    color: #8a8a8a;
+    font-size: 9px;
+    margin-left: 485px;
+}
+
+.login-container form .boy{
+    margin-left: 410px;
+}
+
+.login-container .btn{
+    padding: 10px;
+    margin-top: 25px;
+    margin-left: 0px;
+    background: #0859eed5;
+    color: #fff;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.login-container .btn:hover{
+    background: #3492fd;
+}
+
+@media (max-width:1391px){
+    .container{
+       margin-left: 50px;
+       margin-right: 50px;
+    }
+
+    .about {
+        display: grid;
+    }
+}
+
+
+@media (max-width:880px){
+    section{
+        padding: 40px 0 30px;
+    }
+
+    .lodge{
+        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+        gap: 10px;
+        padding: 0 10px;
+    }
+}
