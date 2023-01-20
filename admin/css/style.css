@@ -2390,7 +2390,6 @@ div[data-role="editor-toolbar"] {
 
 }
 
-}
 
 .panel.panel-default.panel-heading {
 
@@ -9902,4 +9901,9 @@ span.customSelect.changed {
 
 #sendmessage.show, #errormessage.show, .show {
 	display:block;
+}
+
+
+#bulkOptionContainer {
+    padding: 0px;
 }
